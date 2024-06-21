@@ -8,6 +8,8 @@ import sqlite3
 import logging
 import time
 from telebot import types
+from keep_alive import keep_alive
+keep_alive() 
 
 # Logging Setup
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
