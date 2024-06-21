@@ -1,5 +1,4 @@
 aiohttp
 pyTelegramBotAPI
 requests
-sqlite3
 Flask
